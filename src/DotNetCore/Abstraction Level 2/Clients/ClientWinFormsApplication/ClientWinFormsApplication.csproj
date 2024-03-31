@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Abstraction Level 1.5\ClientBoundary\ClientBoundary.csproj" />
+    <ProjectReference Include="..\ClientSharedObjects\ClientSharedObjects.csproj" />
+    <ProjectReference Include="..\ClientWinFormsApplicationContainer\ClientWinFormsApplicationContainer.csproj" />
+  </ItemGroup>
+
+</Project>
